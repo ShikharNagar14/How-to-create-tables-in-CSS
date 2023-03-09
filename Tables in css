@@ -1,0 +1,97 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css tables</title>
+    <style>
+        table.one,th.one,td{border:5px solid; border-collapse:collapse;}
+
+        table.two,th,td.two{border:2px solid;border-collapse: collapse; width: 100%;}
+
+        table.three{border: 2px solid;border-collapse:collapse;width:100%}
+        th.three{border:2px solid;border-collapse:collapse;height:100px; vertical-align: bottom;}
+        td.three{border:2px solid;border-collapse:collapse; text-align:right;}
+        tr.three:hover{background-color: coral;}
+
+        tr:,td.four{padding:15px;text-align:left;}
+        
+
+    </style>
+
+</head>
+<body>
+    <table class="two">
+        <tr>
+            <th >Name</th>
+            <th>Roll no.</th>
+            <th >marks</th>
+        </tr>
+        <tr>
+            <td class="two">4</td>
+            <td class="two">SHIKHAR</td>
+            <td class="two">90</td>
+        </tr>
+        <tr>
+        <td class="two">Puneet</td>
+        <td class="two">27</td>
+        <td class="two" >100</td>
+        </tr>
+    </table>
+    <br><hr>
+    
+
+    <table class="one">
+        <tr>
+            <th >Name</th>
+            <th>Roll no.</th>
+            <th >marks</th>
+        </tr>
+        <tr>
+            <td class="one">SHIKHAR</td>
+            <td class="one">4</td>
+            <td class="one">90</td>
+        </tr>
+        <td class="one">Puneet</td>
+        <td class="one">27</td>
+        <td class="one" >100</td>
+    </table>
+    <br><hr>
+
+    <table class="three">
+        <tr class="three">
+            <th class="three">Name</th>
+            <th class="three">Roll no.</th>
+            <th class="three" >marks</th>
+        </tr>
+        <tr class="three">
+            <td class="three">SHIKHAR</td>
+            <td class="three">4</td>
+            <td class="three">90</td>
+        </tr>
+        <tr class="three">
+        <td class="three">Puneet</td>
+        <td class="three">27</td>
+        <td class="three" >100</td>
+        </tr>
+
+        <table class="four">
+            <tr>
+                <th >Name</th>
+                <th>Roll no.</th>
+                <th >marks</th>
+            </tr>
+            <tr>
+                <td class="four">4</td>
+                <td class="four">SHIKHAR</td>
+                <td class="four">90</td>
+            </tr>
+            <tr>
+            <td class="four">Puneet</td>
+            <td class="four">27</td>
+            <td class="four" >100</td>
+            </tr>
+    </table>
+</body>
+</html>
